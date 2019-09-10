@@ -1,0 +1,14 @@
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/iCalculate.csprojAssemblyReference.cache
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/CalculatorPage.xaml.g.cs
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/MathPage.xaml.g.cs
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/iCalculate.csproj.CoreCompileInputs.cache
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/iCalculate.AssemblyInfoInputs.cache
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/iCalculate.AssemblyInfo.cs
+/Users/janadam/Projects/iCalculate/iCalculate/bin/Debug/netstandard2.0/iCalculate.deps.json
+/Users/janadam/Projects/iCalculate/iCalculate/bin/Debug/netstandard2.0/iCalculate.dll
+/Users/janadam/Projects/iCalculate/iCalculate/bin/Debug/netstandard2.0/iCalculate.pdb
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/iCalculate.dll
+/Users/janadam/Projects/iCalculate/iCalculate/obj/Debug/netstandard2.0/iCalculate.pdb
