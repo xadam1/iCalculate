@@ -27,7 +27,7 @@
                     TextColor="white"
                     FontSize="30"
                     HorizontalOptions="End"
-                    x:Name="resultBox"/>
+                    x:Name="ResultBox"/>
 
             <Button Grid.Row="1"
                     Grid.Column="0"
@@ -43,21 +43,23 @@
                     TextColor="black"
                     FontSize="Large"
                     BackgroundColor="gray"
-                    Clicked=""/>
+                    Clicked="NotImplementedClicked"/>
 
             <Button Grid.Row="1"
                     Grid.Column="2"
                     Text="8-)"
                     TextColor="black"
                     FontSize="Large"
-                    BackgroundColor="gray" />
+                    BackgroundColor="gray" 
+                    Clicked="NotImplementedClicked"/>
 
             <Button Grid.Row="1"
                     Grid.Column="3"
                     Text="/"
                     TextColor="black"
                     FontSize="Large"
-                    BackgroundColor="#4a7312" />
+                    BackgroundColor="#4a7312" 
+                    Clicked="OperationButtonClicked"/>
 
             <Button Grid.Row="2"
                     Grid.Column="0"

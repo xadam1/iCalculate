@@ -7,14 +7,14 @@ namespace iCalculate
 {
     public partial class CalculatorPage : ContentPage
     {
-        public double numberOne = 0;
-        public double numberTwo = 0;
-        public double result = 0;
-        public string operation = "";
+        public double NumberOne;
+        public double NumberTwo;
+        public double Result;
+        public string Operation = "";
 
-        public Color clickedOperationColor = Color.FromHex("#c4e39a");
+        public Color ClickedOperationColor = Color.FromHex("#c4e39a");
 
-        public Color originalOperationColor = Color.FromHex("#4a7312");
+        public Color OriginalOperationColor = Color.FromHex("#4a7312");
 
 
         public CalculatorPage()
@@ -23,35 +23,44 @@ namespace iCalculate
 
         }
 
-        private void NumberButtonClicked(Button sender)
+        private void NumberButtonClicked(object o, EventArgs eventArgs)
         {
-            int sentNumber = Convert.ToInt32(sender.Text);
+            var sender = o as Button;
 
-            if (operation == "")
+            if (sender == null)
+                return;
+
+            var sentNumber = Convert.ToInt32(sender.Text.ToString());
+
+            if (Operation == "")
             {
-                result = (numberOne * 10) + sentNumber;
-                resultBox.Text = result.ToString();
+                Result = (NumberOne * 10) + sentNumber;
+                ResultBox.Text = Result.ToString();
 
-                numberOne = result;
+                NumberOne = Result;
             }
             else
             {
                 // operation is set already
-                result = (numberTwo * 10) + sentNumber;
-                resultBox.Text = result.ToString();
+                Result = (NumberTwo * 10) + sentNumber;
+                ResultBox.Text = Result.ToString();
 
-                numberTwo = result;
+                NumberTwo = Result;
             }
 
         }
 
-        private void OperationButtonClicked(Button sender)
+        private void NotImplementedClicked(object sender, EventArgs e)
         {
-            operation = sender.Text;
-
-            sender.BackgroundColor = clickedOperationColor;
+            var btnSender = sender as Button;
+            DisplayAlert("This button ain't ready dumbass.", "Clicked button: " + btnSender.Text, "Fuck off");
         }
 
-
+        private void OperationButtonClicked(object sender, EventArgs e)
+        {
+            var btnSender = sender as Button;
+            Operation = btnSender.Text;
+            btnSender.BackgroundColor = ClickedOperationColor;
+        }
     }
 }

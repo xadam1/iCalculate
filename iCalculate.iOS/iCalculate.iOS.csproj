@@ -89,8 +89,12 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon20.png">
       <Visible>false</Visible>
     </ImageAsset>
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icons8_abacus_58px_1.png" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icons8_abacus_87px_3.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icons8_abacus_58px_1.png">
+      <Visible>false</Visible>
+    </ImageAsset>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\icons8_abacus_87px_3.png">
+      <Visible>false</Visible>
+    </ImageAsset>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
